@@ -1,0 +1,177 @@
+\documentclass[letterpaper,11pt]{article}
+
+%-------------------------  Package Imports -------------------------%
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%-------------------------  Page Styles -------------------------%
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%-------------------------  Margin Adjustments -------------------------%
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+%-------------------------  Alignment commands -------------------------%
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-------------------------  Sections Formating -------------------------%
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------  ATS Readable -------------------------%
+\pdfgentounicode=1
+
+%-------------------------  Custom commands -------------------------%
+
+    \newcommand{\resumeItem}[1]{
+      \item\small{
+        {#1 \vspace{-2pt}}
+      }
+    }
+    
+    \newcommand{\resumeSubheading}[4]{
+      \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+          \textbf{#1} & #2 \\
+          \textit{\small#3} & \textit{\small #4} \\
+        \end{tabular*}\vspace{-7pt}
+    }
+    
+    \newcommand{\resumeSubSubheading}[2]{
+        \item
+        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+          \textit{\small#1} & \textit{\small #2} \\
+        \end{tabular*}\vspace{-7pt}
+    }
+    
+    \newcommand{\resumeProjectHeading}[2]{
+        \item
+        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+          \small#1 & #2 \\
+        \end{tabular*}\vspace{-7pt}
+    }
+    
+    \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+    
+    \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+    
+    \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+    \newcommand{\resumeItemListStart}{\begin{itemize}}
+    \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------  Custom commands -------------------------%
+
+%-------------------------  RESUME STARTS HERE -------------------------%
+\begin{document}
+
+\begin{center}
+	\textbf{\Huge \scshape Santiago Quintana Moreno} \\ \vspace{1pt}
+	\small +52 5538890890 $|$ \href{mailto:x@x.com}{\underline{santy.10qm.gm@gmail.com}} $|$
+	\href{https://github.com/SantiQ0905}{\underline{https://github.com/SantiQ0905}} $|$
+        \href{https://twitter.com/10qmSanty}{\underline{https://twitter.com/10qmSanty}} $|$
+        \href{https://www.santiagoquintanamoreno.com/}{\underline{https://www.santiagoquintanamoreno.com/}} 
+ 
+\end{center}
+
+
+%-----------EDUCATION-----------%
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{West Vancouver Secondary School}{Vancouver, British Columbia, Canada}
+{High School 10th grade }{August 2018 -- June 2019}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{PrepaTec}{Monterrey, Nuevo Leon, Mexico}
+{High School 10th to 12th grade }{August 2019 -- May 2022}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Münchner Volkshochschule}{München, Bavaria, Germany}
+{German Advanced Language and Skills.}{January 2023 -- March 2023}
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{Tecnologico de Monterrey}{Monterrey, Nuevo Leon, Mexico}
+{Bachelor of Science in Computer Science and Technology Engineering (ITC)
+}{August 2023 -- Present}
+\resumeSubHeadingListEnd
+%-----------EDUCATION-----------%
+
+%-----------EXPERIENCE-----------%
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Robotics Mentor}{May 2022 -- Present}
+{PrepaTec Overture 7421, 23550, 23619}{Monterrey, Mexico}
+\resumeItemListStart
+\resumeItem{Instructed team members in wiring, electrical, C++, Java, Python, and WPILib, enabling advanced competition robot programming for seamless hardware-software integration.}
+\resumeItem{Educated on data gathering through in-house scouting app development and analysis.}
+\resumeItem{Guided team collaboration across seasons, streamlining tasks and resources for prompt, efficient competition robot design and fabrication. Simultaneously, provided leadership and mentorship during events, cultivating strategic decision-making, teamwork, and adaptability.}
+\resumeItem{Aided in the development, construction and first year of FLL Team 23550.}
+\resumeItem{Aided in the development, construction and achived Lead Mentor status in programming, scouting and driveteam for FTC team 23619.}
+\resumeItem{Nominated to Wodie Flowers Mentorship award in the Monterrey Regional presented by PrepaTec in 2024.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------%
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Smart Breathing} $|$ \emph{CAD, Python, Arduino, Github}}{2022 - 2023}
+\resumeItemListStart
+\resumeItem{Nominated for the "Premio Eugenio Garza Sada" in the category of Best Student Social Innovation Project for the creation and development of "Smart Breathing". Together with my peers, we developed and prototyped two sport-oriented devices designed for pollution detection and alerts. Additionally, we created a breathable mask designed to filter out pollution particles effectively, which also provided assistance during the COVID-19 pandemic.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{ECOCYCLE, Xignux Challenge} $|$ \emph{CAD, Python, Arduino, Github, Notion}}{2024 - Present}
+\resumeItemListStart
+\resumeItem{Developed a sustainable, replicable plastic shredder and extruder. This machine processes recycled plastic into usable forms, with dual applications: entrepreneurship and social impact. This innovative machine can process recycled plastic into usable forms for different purposes. For social impact, it extrudes plastic sheets designed for constructing walls in low-income housing, providing a cost-effective and eco-friendly building material. On the social entrepreneurship, the machine supports a business focused on creating wall, floor, and ceiling art from recycled plastic, offering an affordable and creative solution to decorate spaces. This approach not only promotes recycling and sustainability but also aims to improve living conditions and encourage artistic expression through the use of recycled materials.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------Technical Skills-----------%
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		            \textbf{Programming Languages}{: Java, Python, C/C++, HTML/CSS, LaTeX,} \\
+		            \textbf{Developer Tools}{: Git, Github, VS Code, Arduino IDE, Android Studio} \\
+		            \textbf{Libraries}{: NumPy, Matplotlib, mpltoolkits, mplot3d, Axes3D, WPILib, FTCLib, RoadRunner} \\
+                        \textbf{Social Skills}{: Adaptability, Effective and punctual communication, Decision making, Problem Resolution, Teamwork} \\
+                        \textbf{General Software}{: Microsoft Office, GSuite, Notion, Slack} \\
+		            \textbf{Languages}{: Spanish (Native), English (C1), German (B2)} \\
+		      }}
+\end{itemize}
+%-----------Technical Skills-----------%
+
+\end{document}
